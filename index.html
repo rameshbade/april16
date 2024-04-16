@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        table,tr,th,td
+        {
+            border:3px solid black;
+            border-collapse: collapse;
+            background-color: grey;
+            border-spacing: 5px;
+        }
+        td
+        {
+         transition-delay:3s; 
+         transition-duration:10s;
+         transition-timing-function:ease;
+        }
+        td:hover
+        {
+        transform:rotate(360deg);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <table style="width:100%;">
+        <center><h1 style="color:green;">2D&3D TRANSFORMS</h1></center>
+        <tr>
+            <th style="color:red;">IMAGES1</th>
+            <th style="color: blue;">IMAGES2</th> 
+            <th style="color: blueviolet;">IMAGES3</th>
+        <tr>
+            <tr>
+                <td><img src="./kohli1.jpeg" width="100%"  height="400px;"></td>
+                <td><img src="./kohli2.jpeg" width="100%"  height="400px;"></td>
+                <td><img src="./kohli3.jpeg" width="100%px"  height="400px;"></td>
+            </tr> 
+            <tr>
+                <td><img src="./kohli4.jpg" width="100%"  height="400px;"></td>
+                <td><img src="./kohli5.jpeg" width="100%"  height="400px;"></td>
+                <td><img src="./kohli6.jpeg" width="100%"  height="400px;"></td>
+            </tr> 
+    </table>
+</body>
+</html>
